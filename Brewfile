@@ -1,0 +1,2 @@
+# hex viewer
+brew 'hexyl'

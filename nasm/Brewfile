@@ -1,0 +1,2 @@
+# nasm compiler
+brew 'nasm'

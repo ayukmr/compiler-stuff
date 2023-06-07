@@ -1,0 +1,15 @@
+[tool.poetry]
+name        = "llvm-py"
+version     = "0.1.0"
+description = ""
+authors     = ["Ayush Kumar <github@ayushk.xyz>"]
+readme      = "README.md"
+packages    = [{ include = "llvm_py" }]
+
+[tool.poetry.dependencies]
+python   = "^3.10"
+llvmlite = "^0.39.1"
+
+[build-system]
+requires      = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
